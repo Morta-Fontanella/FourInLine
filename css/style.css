@@ -46,6 +46,10 @@
     height: 100%;
 }
 
+.column:hover {
+opacity: 80%;
+}
+
 .lower-limit {
     width: 100%;
     height: 4%;
