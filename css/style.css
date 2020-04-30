@@ -7,3 +7,25 @@
     background: url('../assets/Background.png') repeat;
     background-color: #111111;
 }
+
+.header {
+    height: 80px;
+    width: 100vw;
+    background-color: #111111c4;
+}
+
+.game {
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #111111c4;
+}
+
+.footer{
+    height: 30px;
+    width: 100vw;
+    background-color: #111111c4;
+}
