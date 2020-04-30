@@ -2,7 +2,7 @@
 
 :root{
 --colorsolido: #111111;
---colortransparente: #111111c4;
+--colortransparente: #111111a8;
 }
 
 /*Main*/
@@ -39,6 +39,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-self: start;
 }
 
 .logo {
@@ -50,13 +51,13 @@ body {
 .name {
     color: white;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
+
 /*Game styles*/
 
 .game {
-    width: 500px;
-    height: 400px;
+    padding: 2rem;
     background-color: var(--colortransparente);
     display: flex;
     flex-direction: column;
@@ -65,8 +66,8 @@ body {
 }
 
 .board {
-    width: 100%;
-    height: 100%;
+    width: 500px;
+    height: 400px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -91,9 +92,36 @@ opacity: 80%;
 }
 
 .lower-limit {
-    width: 100%;
+    width: 500px;
     height: 4%;
     background: #009F0D;
+}
+
+.players {
+    padding-top: 1rem;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.player {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.tab {
+    height: 100%;;
+}
+
+.playername {
+    padding: 1rem;  
+    color: white;
+    font-size: 20px;
 }
 
 /*Footer styles*/
