@@ -132,18 +132,50 @@ opacity: 80%;
 
 .footer{
     position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     left: 0;
     bottom: 0;
     right: 0;
     height: 40px;
     background-color: var(--colortransparente);
+    color: white;
 }
 
-/*Media Querys */
-
-@media (max-width: 565px) {
-.game {
-width: 100%;
+.desing {
+    justify-self: flex-end;
+    margin-right: 1rem;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
+.button {
+    margin-right: 1rem;
+    padding: 0.2rem;
+    border-radius: 3px;
+    border: 1px solid white;
+
+}
+
+.button a{
+    color: white;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button a span{
+    margin-right: 0.5rem;
+    text-decoration: none;
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #FF310A;
 }
